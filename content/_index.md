@@ -33,7 +33,7 @@ sections:
       text: |-
         My research lies at the intersection of medical imaging, machine learning, and clinical decision support, with a focus on developing explainable, robust, and generalizable AI tools for early disease detection.
 
-        Core areasinclude:
+        Core areas include:
         - Imaging biomarkers for pulmonary nodules — Leveraging longitudinal modeling to detect and track changes that may indicate malignancy.
         - Vision–language and multimodal learning — Integrating radiologists’ semantic assessments and imaging features to improve prediction accuracy and explainability.
         - Robust image analysis — Enhancing image preprocessing pipelines, including segmentation and feature extraction methods
@@ -42,13 +42,23 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: citation
+  - block: collection
+    content:
+      title: Other Publications
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
     design:
       view: citation
   - block: cta-card

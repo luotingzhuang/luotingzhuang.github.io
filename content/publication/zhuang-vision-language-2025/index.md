@@ -45,4 +45,6 @@ tags:
 links:
 - name: URL
   url: http://arxiv.org/abs/2504.21344
+featured: true
+
 ---
