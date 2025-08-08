@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Luoting Zhuang 庄洛婷
+title: 庄洛婷
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: Luoting Zhuang
 
 # Full name (for SEO)
 first_name: Luoting
@@ -11,7 +11,7 @@ last_name: Zhuang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤩
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'luotingzhuang@g.ucla.edu'
+    url: 'mailto:luotingzhuang@g.ucla.edu'
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/LuotingZhuang
@@ -42,7 +42,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=UWbzOTEAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-3714-3174
 
 interests:
   - Artificial Intelligence
