@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 庄洛婷
+title: Luoting Zhuang 庄洛婷
 
 # Name pronunciation (optional)
 name_pronunciation: 
