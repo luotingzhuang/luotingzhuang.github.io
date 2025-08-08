@@ -42,7 +42,6 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: papers
     content:
       title: Featured Publications
       filters:
@@ -54,7 +53,6 @@ sections:
   - block: collection
     content:
       title: Other Publications
-      text: ""
       filters:
         folders:
           - publication

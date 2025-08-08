@@ -33,4 +33,6 @@ abstract: For patients with thyroid nodules, the ability to detect and diagnose 
 links:
 - name: URL
   url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10785838/
+featured: true
+
 ---
