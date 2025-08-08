@@ -74,4 +74,4 @@ education:
 ---
 
 ## About Me
-I’m Luoting Zhuang, a PhD candidate in Medical Informatics at UCLA. My research focuses on identifying imaging biomarkers for pulmonary nodules and developing longitudinal models to track nodule changes over time. I aim to advance early detection and improve clinical decision-making in lung health.
+I’m Luoting Zhuang, a PhD candidate in Medical Informatics at UCLA, where I develop artificial intelligence and computational modeling approaches to address challenges in medical imaging and precision medicine. My work focuses on extracting clinically meaningful biomarkers from imaging data, integrating multimodal information, and building robust models that translate into real-world healthcare applications.

@@ -36,6 +36,15 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
+
+        My research lies at the intersection of medical imaging, machine learning, and clinical decision support, with a focus on developing explainable, robust, and generalizable AI tools for early disease detection.
+
+        Core areasinclude:
+        - Imaging biomarkers for pulmonary nodules — Leveraging longitudinal modeling to detect and track changes that may indicate malignancy.
+        - Vision–language and multimodal learning — Integrating radiologists’ semantic assessments and imaging features to improve prediction accuracy and explainability.
+        - Robust image analysis — Enhancing image preprocessing pipelines, including segmentation and feature extraction methods
+        - Multimodal oncology modeling — Fusing imaging, histopathology, genomics to advance precision oncology and personalized care.
+
     design:
       columns: '1'
   - block: collection
