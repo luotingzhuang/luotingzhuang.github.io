@@ -53,21 +53,21 @@ interests:
 education:
   - area: PhD Medical Informatics
     institution: University of California, Los Angeles
-    date_start: 2022-09
-    date_end: 
+    date_start: 2022-09-01
+    date_end: 2027-09-01
     button:
       text: 'Hsu Lab'
       url: 'https://www.hsu-lab.com/'
   - area: MS Biomedical Inforamtics
     institution: Harvard Medical School
-    date_start: 2020-08
-    date_end: 2021-12
+    date_start: 2020-09-01
+    date_end: 2021-12-01
     summary: |
       GPA: 4.0/4.0
   - area: BS Applied Mathematics
     institution: University of California, Los Angeles
-    date_start: 2016-09
-    date_end: 2020-03
+    date_start: 2016-09-01
+    date_end: 2020-03-01
     summary: |
       GPA: 3.93/4.0
 
