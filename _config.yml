@@ -1,0 +1,42 @@
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast"
+
+locale: "en-US"
+title: "Luoting Zhuang"
+title_separator: "|"
+name: "Luoting Zhuang"
+description: "Clinical machine learning for precision oncology."
+url: "https://luotingzhuang.github.io"
+baseurl: ""
+repository: "luotingzhuang/luotingzhuang.github.io"
+
+markdown: kramdown
+permalink: /:categories/:title/
+include:
+  - _pages
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+author:
+  name: "Luoting (Lottie) Zhuang"
+  chinese_name: "庄洛婷"
+  avatar: "/assets/images/luoting-zhuang.jpg"
+  bio: "PhD candidate in Medical Informatics at UCLA"
+  status: "Open to full-time opportunities starting Summer 2027"
+  links:
+    - label: "luotingzhuang@g.ucla.edu"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:luotingzhuang@g.ucla.edu"
+    - label: "luotingzhuang@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:luotingzhuang@gmail.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=UWbzOTEAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/luotingzhuang"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/luotingzhuang/"

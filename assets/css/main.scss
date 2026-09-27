@@ -1,0 +1,136 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/contrast";
+@import "minimal-mistakes";
+
+html {
+  font-size: 15px;
+}
+
+@include breakpoint($medium) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.page__title {
+  font-size: 1.7em;
+}
+
+.page__content h2 {
+  font-size: 1.25em;
+  margin-top: 2em;
+}
+
+.page__content h3 {
+  font-size: 1.05em;
+  margin-bottom: 0.15em;
+}
+
+.header-link {
+  display: none !important;
+}
+
+.author__name-zh {
+  margin: 0.15em 0 0.55em;
+  font-size: 1.05em;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+}
+
+.author__status {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin: 0.35em 0 0.65em;
+  padding: 0.45em 0.65em;
+  border: 1px solid #b7dfc3;
+  border-radius: 0.5em;
+  background: #eaf6ee;
+  color: #245f37;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.author__status-dot {
+  flex: 0 0 auto;
+  width: 0.55em;
+  height: 0.55em;
+  margin-top: 0.35em;
+  border-radius: 50%;
+  background: #2da44e;
+}
+
+.cv-pages {
+  margin-top: 1.25em;
+}
+
+.cv-page {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.5em;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.25em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar,
+.sidebar:hover {
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+@include breakpoint($large) {
+  .sidebar {
+    width: 230px;
+    opacity: 1;
+  }
+
+  .wide .page {
+    width: calc(100% - 260px);
+    padding-inline-end: 0;
+  }
+
+  .author__avatar img {
+    width: 230px;
+    max-width: 230px;
+  }
+
+  .sidebar .author__name {
+    font-size: 1.55em;
+    line-height: 1.2;
+  }
+
+  .sidebar .author__name-zh {
+    font-size: 1.15em;
+  }
+
+  .sidebar p {
+    font-size: 1.08em;
+  }
+
+  .sidebar li,
+  .author__urls a {
+    font-size: 0.875rem;
+  }
+}
+
+@include breakpoint($x-large) {
+  .sidebar {
+    width: 310px;
+  }
+
+  .wide .page {
+    width: calc(100% - 340px);
+  }
+
+  .author__avatar img {
+    width: 280px;
+    max-width: 280px;
+  }
+}
